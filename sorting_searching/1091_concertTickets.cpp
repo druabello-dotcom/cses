@@ -21,6 +21,5 @@ int main() {
             std::cout << *it << std::endl;
             tickets.erase(it);
         }
-
     }
 }
