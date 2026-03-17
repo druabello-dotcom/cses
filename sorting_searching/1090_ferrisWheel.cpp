@@ -8,9 +8,7 @@ int main() {
     int n, x;
     std::cin >> n >> x;
     std::vector<int> weightArr(n);
-    for (int i = 0; i < n; i++) {
-        std::cin >> weightArr[i];
-    }
+    for (int i = 0; i < n; i++) std::cin >> weightArr[i];
     std::sort(weightArr.begin(), weightArr.end());
 
     int i = 0;
