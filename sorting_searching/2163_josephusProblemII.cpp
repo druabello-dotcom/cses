@@ -1,3 +1,4 @@
+// this will get TLE
 #include <iostream>
 #include <list>
 #include <iterator>
@@ -19,7 +20,6 @@ void solve(std::list<int>& children, int n, int k) {
 		children.erase(prev);
 
 		adv = k % n;
-		if (!adv) adv = n;
 		if (n < t) t = 1;
 		if (n < t + adv) {
 			int diff = n - t;
